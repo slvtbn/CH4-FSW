@@ -28,5 +28,9 @@ cmForm.addEventListener('submit', (e) => {
     console.log(getDateValue())
     console.log(getSelectValue3())
     console.log(getSelectValue4())
-    filterCar(getSelectValue(), getDateValue(), getSelectValue3(), getSelectValue4())
+    if (getSelectValue4() == "") {
+        filterCarDua(getSelectValue(), getDateValue(), getSelectValue3())
+    } else {
+        filterCar(getSelectValue(), getDateValue(), getSelectValue3(), getSelectValue4())
+    }
 })
