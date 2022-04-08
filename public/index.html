@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Sabrina" />
+    <meta name="description" content="Lorem ipsum dolor sit amet" />
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>Binar: Challenge 04</title>
+
+    <!-- Bootstrap & CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Owl Carousel Min CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Owl Carousel Theme CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header-->
+    <div class="container-fluid" id="header">
+        <!-- Navbar-->
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <div class="container" id="navbar_content">
+                <!-- Logo -->
+                <a href="/">
+                    <div class="navbar_brand" id="header_logo"></div>
+                </a>
+                <!-- Navbar Item-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">BCR</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p><a href="#ourservices">Our Services</a></p>
+                        <p><a href="#whyus">Why Us</a></p>
+                        <p><a href="#testimonial">Testimonial</a></p>
+                        <p><a href="#faq">FAQ</a></p>
+                        <a href="/cars" style="color: white !important;" class="btn btn-success">Register</a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourservices">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#whyus">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#register" class="btn btn-success" href="#register">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header Content -->
+        <div class="container" id="header_content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="fw-bold">Sewa & Rental Mobil Terbaik di Kawasan Biak Papua</h1>
+                    <p style="width: 500px;">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik
+                        dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+                    <a href="/cars" class="btn btn-success my-2 my-sm-0">Mulai Sewa Mobil</a>
+                </div>
+                <div class="col-sm-6">
+                    <img src="./images/img_car.png" class="img-fluid" id="img_header" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Services -->
+    <div class="container-fluid" id="ourservices">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" id="os-img">
+                    <img src="./images/img_service.png" class="img-fluid" id="img_os">
+                </div>
+                <div class="col-sm-6">
+                    <h4 class="fw-bold py-4">Best Car Rental for any kind of trip in Biak Papua!</h4>
+                    <p>Sewa mobil di Jakarta Selatan bersama Binar Car Rental jaminan harga lebih murah dibandingkan
+                        yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
+                        wedding, meeting, dll.</p>
+                    <div class="ourservices_list py-2">
+                        <img src="./images/icon/checklist.png">&emsp;Sewa Mobil dengan Supir di Bali 12 Jam</img><br>
+                        <img src="./images/icon/checklist.png">&emsp;Sewa Mobil Lepas Kunci di Bali 24 Jam</img><br>
+                        <img src="./images/icon/checklist.png">&emsp;Sewa Mobil Jangka Panjang Bulanan</img><br>
+                        <img src="./images/icon/checklist.png">&emsp;Gratis Antar - Jemput Mobil di Bandara</img><br>
+                        <img src="./images/icon/checklist.png">&emsp;Layanan Airport Transfer / Drop In Out</img><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Us -->
+    <div class="container-fluid" id="whyus">
+        <div class="container" id="whyus_konten">
+            <div id="whyus_teks"">
+                <h4 class=" fw-bold">Why Us?</h4>
+                <p>Mengapa harus pilih Binar Car Rental?</p>
+            </div>
+            <div id="whyus_card" class="d-flex justify-content-between">
+                <div class="card" style="width: 16rem;">
+                    <div class="card-body line-height">
+                        <img src="./images/icon/thumbs-up.png" class="img-fluid">
+                        <h5 class="card-title">Mobil Lengkap</h5>
+                        <p class="card-text">Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                        <img src="./images/icon/price.png" class="img-fluid">
+                        <h5 class="card-title">Harga Murah</h5>
+                        <p class="card-text">Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil
+                            lain</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                        <img src="./images/icon/24hrs.png" class="img-fluid">
+                        <h5 class="card-title">Layanan 24 Jam</h5>
+                        <p class="card-text">Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di
+                            akhir minggu</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                        <img src="./images/icon/professional.png" class="img-fluid">
+                        <h5 class="card-title">Sopir Profesional</h5>
+                        <p class="card-text">Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="container-fluid" id="testimonial">
+        <div class="container-fluid">
+            <div class="container text-center" id="testimonial_teks">
+                <h4 class="fw-bold">Testimonial</h4>
+                <p class="testi_p">Berbagai review positif dari para pelanggan kami</p>
+            </div>
+            <div class="container-fluid py-4">
+                <div class="row" id="row_testi">
+                    <!-- Memakai Javascript -->
+                    <div class="owl-carousel owl-theme p-0">
+                        <div class="d-flex testi_holder p-4">
+                            <div class="col-3">
+                                <img style="width: 75px;" src="./images/testimonials/img_photo2.png"
+                                    class="img-fluid" />
+                                <img style="width: 100px;" class="my-2 testi_star img-fluid"
+                                    src="./images/testimonials/Rate.png" />
+                            </div>
+                            <div class="col-9">
+                                <img style="width: 100px;" class="my-2 mobile img-fluid"
+                                    src="./images/testimonials/Rate.png" />
+                                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <p class="fw-bold">John Dee 32, Bromo1</p>
+                            </div>
+                        </div>
+                        <div class="d-flex testi_holder p-4">
+                            <div class="col-3">
+                                <img style="width: 75px;" src="./images/testimonials/img_photo.png" class="img-fluid" />
+                                <img style="width: 100px;" class="my-2 testi_star img-fluid"
+                                    src="./images/testimonials/Rate.png" />
+                            </div>
+                            <div class="col-9">
+                                <img style="width: 100px;" class="my-2 mobile img-fluid"
+                                    src="./images/testimonials/Rate.png" class="img-fluid" />
+                                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <p class="fw-bold">John Dee 32, Bromo2</p>
+                            </div>
+                        </div>
+                        <div class="d-flex testi_holder p-4">
+                            <div class="col-3">
+                                <img style="width: 75px;" src="./images/testimonials/img_photo2.png"
+                                    class="img-fluid" />
+                                <img style="width: 100px;" class="my-2 testi_star img-fluid"
+                                    src="./images/testimonials/Rate.png" />
+                            </div>
+                            <div class="col-9">
+                                <img style="width: 100px;" class="my-2 mobile img-fluid"
+                                    src="./images/testimonials/Rate.png" class="img-fluid" />
+                                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <p class="fw-bold">John Dee 32, Bromo3</p>
+                            </div>
+                        </div>
+                        <div class="d-flex testi_holder p-4">
+                            <div class="col-3">
+                                <img style="width: 75px;" src="./images/testimonials/img_photo.png" class="img-fluid" />
+                                <img style="width: 100px;" class="my-2 testi_star img-fluid"
+                                    src="./images/testimonials/Rate.png" />
+                            </div>
+                            <div class="col-9">
+                                <img style="width: 100px;" class="my-2 mobile img-fluid"
+                                    src="./images/testimonials/Rate.png" class="img-fluid" />
+                                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <p class="fw-bold">John Dee 32, Bromo4</p>
+                            </div>
+                        </div>
+                        <div class="d-flex testi_holder p-4">
+                            <div class="col-3">
+                                <img style="width: 75px;" src="./images/testimonials/img_photo2.png"
+                                    class="img-fluid" />
+                                <img style="width: 100px;" class="my-2 testi_star img-fluid"
+                                    src="./images/testimonials/Rate.png" />
+                            </div>
+                            <div class="col-9">
+                                <img style="width: 100px;" class="my-2 mobile img-fluid"
+                                    src="./images/testimonials/Rate.png" class="img-fluid" />
+                                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <p class="fw-bold">John Dee 32, Bromo5</p>
+                            </div>
+                        </div>
+                        <div class="d-flex testi_holder p-4">
+                            <div class="col-3">
+                                <img style="width: 75px;" src="./images/testimonials/img_photo.png" class="img-fluid" />
+                                <img style="width: 100px;" class="my-2 testi_star img-fluid"
+                                    src="./images/testimonials/Rate.png" />
+                            </div>
+                            <div class="col-9">
+                                <img style="width: 100px;" class="my-2 mobile img-fluid"
+                                    src="./images/testimonials/Rate.png" class="img-fluid" />
+                                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <p class="fw-bold">John Dee 32, Bromo6</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register -->
+    <div class="container-fluid lh-lg" id="register">
+        <div class="container text-center" id="register_konten">
+            <h1 class="fw-bold">Sewa Mobil di Biak Papua Sekarang</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. </p>
+            <a href="/cars" class="btn btn-success my-2">Mulai Sewa Mobil</a>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="container-fluid" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h4 class="fw-bold">Frequently Asked Question</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <div class="col-sm">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Apa saja syarat yang dibutuhkan?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Berapa hari minimal sewa mobil lepas kunci?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Apakah ada biaya antar-jemput?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Bagaimana jika terjadi kecelakaan?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                    <p>binarcarrental@gmail.com</p>
+                    <p>081-233-334-808</p>
+                </div>
+                <div class="col-sm-2 fw-bold lh-lg" style="padding-bottom: 5px;">
+                    <a href="#ourservices">Our Services</a><br>
+                    <a href="#whyus">Why Us</a><br>
+                    <a href="#testimonial">Testimonial</a><br>
+                    <a href="#faq">FAQ</a><br>
+                </div>
+                <div class="col-sm-4" style="padding-bottom: 5px;">
+                    <p>Connect with us</p>
+                    <div style="padding-bottom: 10px;">
+                        <a href="https://www.facebook.com/"><img src="./images/footer-icon/icon_facebook.png"
+                                class="img-fluid"></a>
+                        <a href="https://www.instagram.com/"><img src="./images/footer-icon/icon_instagram.png"
+                                class="img-fluid"></a>
+                        <a href="https://www.twitter.com/"><img src="./images/footer-icon/icon_twitter.png"
+                                class="img-fluid"></a>
+                        <a href="https://www.gmail.com/"><img src="./images/footer-icon/icon_mail.png"
+                                class="img-fluid"></a>
+                        <a href="https://www.twitch.com/"><img src="./images/footer-icon/icon_twitch.png"
+                                class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="col-sm-3" style="padding-bottom: 10px;">
+                    <p>Copyright Binar 2022</p>
+                    <a href="/">
+                        <div id="header_logo"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- Jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Owl Carousel Min JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Setup Owl Carousel -->
+    <script>
+        const nextIcon = '<img src="../images/testimonials/Right_button.png" alt:"right">'
+        const prevIcon = '<img src="../images/testimonials/Left_button.png" alt:"left">'
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: [
+                prevIcon,
+                nextIcon
+            ],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

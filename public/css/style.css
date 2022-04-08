@@ -1,0 +1,334 @@
+/* large desktop */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+h1, h4 {
+    padding-bottom: 15px;
+}
+
+/* Header */
+#header {
+    background-color: #F1F3FF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#header_logo {
+    width: 100px;
+    height: 34px;    
+    background: #0D28A6;
+}
+
+/* Navbar */
+#navbar_content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0px;
+}
+
+.nav-item {
+    padding-left: 32px;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+/* Header Content */
+#header_content {
+    padding-top: 80px;
+}
+
+/* Cari Mobil */
+#cari-mobil {
+    margin-top: -120px;
+}
+
+#cm-search {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+#cm-result {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cm-content {
+    max-width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.cm-content img {
+    align-self: center;
+    border-radius: 5px;
+}
+
+.cm-icon {
+    align-self: start !important;
+}
+
+/* Our Services */
+.ourservices_list {
+    line-height: 45px;
+}
+
+/* Why Us */
+#whyus_card {
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+#whyus_card h5 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Testimonial */
+#testimonial {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Horizontal View Scrolling
+#row_testi {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.testi_holder {
+    background: #F1F3FF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    flex-basis: 30.33%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+#testimonial a {
+    margin-right: 15px;
+}
+*/
+
+.testi_holder {
+    background: #F1F3FF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    flex-basis: 30.33%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.mobile {
+    display: unset !important;
+}
+
+.testi_star {
+    display: none !important;
+}
+
+.owl-dots {
+    visibility: hidden !important;
+}
+
+.owl-nav .owl-prev:hover, .owl-nav .owl-next:hover {
+    background: none !important;
+    outline: none !important;
+    opacity: 1;
+}
+
+.owl-nav .owl-prev, .owl-nav .owl-next {
+    outline: none;
+    opacity: 0.6;
+    transition: all .5s ease;
+}
+
+/* Register */
+#register_konten {
+    background: #0D28A6;
+    border-radius: 13px;
+    color: white;
+    padding: 90px;
+}
+
+/* FAQ  */
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion-collapse {
+    padding: 20px;
+}
+
+/* Footer */
+#footer {
+    font-size: 14px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer img {
+    margin-right: 15px;
+}
+
+/* phones */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 36px !important;
+    }
+
+    p {
+        width: fit-content !important;
+    }
+
+    h4 {
+        font-size: 24px !important;
+        line-height: 36px !important;
+        margin-top: 8px !important;
+    }
+
+    .offcanvas {
+        width: 50% !important;
+    }
+
+    .offcanvas a {
+        text-decoration: none !important;
+        color: black !important;
+    }
+
+    #header_content {
+        padding-top: 0px;
+    }
+
+    #img_header {
+        padding-top: 25px;
+        margin-top: 0px !important;
+        margin-left: 25px;
+    }
+
+    #ourservices {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    #ourservices h4 {
+        padding-top: 40px;
+    }
+
+    #whyus {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+
+    #whyus_teks {
+        text-align: -webkit-center;
+    }
+
+    #whyus_card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #whyus_card .card {
+        width: fit-content !important;
+        margin-bottom: 20px;
+    }
+
+    #testimonial {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        align-content: center !important;
+    }  
+
+    .testi_holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .testi_star {
+        display: unset !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .mobile{
+        display: none !important;
+    }
+
+    #register {
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+
+    #register_konten {
+        padding: 55px;
+    }
+
+    #register_konten > h1 {
+        font-size: 30px !important;
+        line-height: 50px;
+    }
+
+    #faq {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    #footer {
+        font-size: 16px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #header_content {
+        padding-top: 50px;
+    }
+
+    #header_content p {
+        width: 85% !important;
+    }
+
+    #img_header {
+        margin-top: 200px;
+    }
+
+    #img_os {
+        padding: 40px !important;
+    }
+
+    .offcanvas {
+        width: 50% !important;
+    }
+
+    .offcanvas a {
+        text-decoration: none !important;
+        color: black !important;
+    }
+}
